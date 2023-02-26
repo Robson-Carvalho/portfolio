@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.header`
   padding: 0 24px;
@@ -36,12 +36,54 @@ export const Container = styled.header`
           font-size: 18px;
           line-height: 22px;
           color: ${({ theme }) => theme.gray_light};
-          transition: 0.3s;
+          transition: color 0.3s;
+          position: relative;
 
           &:hover {
             color: ${({ theme }) => theme.light};
           }
+
+          &::after {
+            content: "";
+            width: 0%;
+            height: 2px;
+            background: ${({ theme }) => theme.blue};
+            position: absolute;
+            left: 0;
+            bottom: -0.5rem;
+            transition: width 0.3s;
+          }
+
+          &:hover:after {
+            width: 100%;
+          }
         }
+      }
+
+      @media screen and (max-width: 920px) {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 0;
+        background-color: ${({ theme }) => theme.dark_200};
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        overflow-y: hidden;
+        visibility: hidden;
+
+        transition: 0.3s ease-in;
+
+        ${({ isMenuVisible }) =>
+          isMenuVisible &&
+          css`
+            height: 100vh;
+            visibility: visible;
+          `}
       }
     }
   }

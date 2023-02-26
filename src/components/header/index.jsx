@@ -1,8 +1,17 @@
+import { useState } from "react";
 import { Container } from "./styles";
 
+import { MobileButton } from "../mobileButton";
+
 export const Header = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
+  const handleMenuVisibilityToggle = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
+
   return (
-    <Container>
+    <Container isMenuVisible={isMenuVisible}>
       <nav>
         <h1 className="portfolioName">Portfólio</h1>
         <ul className="menu">
@@ -19,6 +28,7 @@ export const Header = () => {
             <a href="#">Projetos</a>
           </li>
         </ul>
+        <MobileButton handleMenuVisibilityToggle={handleMenuVisibilityToggle} />
       </nav>
     </Container>
   );
