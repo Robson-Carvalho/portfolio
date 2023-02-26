@@ -1,5 +1,11 @@
 import { Container } from "./styles";
 
+import { Header } from "../../components/header";
+
 export const Home = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 };
