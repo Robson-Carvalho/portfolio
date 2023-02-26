@@ -15,20 +15,23 @@ export const Header = () => {
       <nav>
         <h1 className="portfolioName">Portfólio</h1>
         <ul className="menu">
-          <li>
+          <li onClick={handleMenuVisibilityToggle}>
             <a href="#">Home</a>
           </li>
-          <li>
+          <li onClick={handleMenuVisibilityToggle}>
             <a href="#">Sobre mim</a>
           </li>
-          <li>
+          <li onClick={handleMenuVisibilityToggle}>
             <a href="#">Experiência</a>
           </li>
-          <li>
+          <li onClick={handleMenuVisibilityToggle}>
             <a href="#">Projetos</a>
           </li>
         </ul>
-        <MobileButton handleMenuVisibilityToggle={handleMenuVisibilityToggle} />
+        <MobileButton
+          isMenuVisible={isMenuVisible}
+          handleMenuVisibilityToggle={handleMenuVisibilityToggle}
+        />
       </nav>
     </Container>
   );
