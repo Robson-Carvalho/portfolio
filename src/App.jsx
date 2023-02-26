@@ -1,6 +1,8 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import { reset } from "./styles/global.style";
 
+import { Home } from "./pages/home";
+
 const GlobalStyle = createGlobalStyle`
   ${reset}
   html{
@@ -35,6 +37,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={cssVariables}>
       <GlobalStyle />
+      <Home />
     </ThemeProvider>
   );
 };
