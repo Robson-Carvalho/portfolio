@@ -14,6 +14,7 @@ import profile from "../../assets/profile.png";
 import { Button } from "../button";
 
 import { Experience } from "../experience";
+import { Projects } from "../projects";
 
 export const Main = () => {
   const {
@@ -99,6 +100,7 @@ export const Main = () => {
         </div>
       </About>
       <Experience />
+      <Projects />
     </Container>
   );
 };

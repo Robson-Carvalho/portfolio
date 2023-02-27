@@ -7,6 +7,7 @@ export const Container = styled.section`
 
   .container {
     max-width: 1081px;
+    width: 100%;
     margin: 0 auto;
 
     display: flex;

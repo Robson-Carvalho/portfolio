@@ -66,12 +66,12 @@ export const Home = styled.section`
 `;
 
 export const About = styled.section`
-  width: 100%;
   padding: 100px 24px;
   background-color: ${({ theme }) => theme.dark_200};
 
   .container {
     max-width: 1081px;
+    width: 100%;
     margin: 0 auto;
 
     display: flex;

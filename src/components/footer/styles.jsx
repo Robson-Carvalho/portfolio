@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   width: 100%;
   background-color: ${({ theme }) => theme.dark};
-  padding: 41px 0 40px 0;
+  padding: 41px 24px 40px 24px;
 
   .content {
     max-width: 1081px;
