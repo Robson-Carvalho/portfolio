@@ -8,7 +8,8 @@ const projects = [
     description:
       "Todo List visa listar as coisas que precisam ser feitas. É uma forma de organizar atividades que não podem ser esquecidas e que não fazem parte da nossa rotina. É diferente de uma agenda, onde as atividades têm dia e hora para acontecer.",
     techs: "ReactJS e styled-components",
-    imageProject: "",
+    imageProject:
+      "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-project-todo-list.png?raw=true",
     link: "https://github.com/Robson-Carvalho/todo-list",
   },
 ];
