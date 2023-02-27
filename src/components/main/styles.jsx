@@ -9,6 +9,7 @@ export const Home = styled.section`
   width: 100%;
   height: 625px;
   margin: 0 auto;
+  padding: 0 24px;
 
   display: flex;
   flex-direction: row;
