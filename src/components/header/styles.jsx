@@ -75,6 +75,7 @@ export const Container = styled.header`
 
         overflow-y: hidden;
         visibility: hidden;
+        z-index: 10;
 
         transition: 0.3s ease-in;
 

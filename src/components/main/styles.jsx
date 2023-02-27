@@ -57,5 +57,9 @@ export const Home = styled.section`
   .looperBG {
     position: absolute;
     right: 0;
+
+    @media (max-width: 960px) {
+      display: none;
+    }
   }
 `;
