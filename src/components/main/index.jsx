@@ -1,4 +1,4 @@
-import { Container, Home } from "./styles";
+import { Container, Home, About } from "./styles";
 
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
@@ -6,6 +6,10 @@ import { ThemeContext } from "styled-components";
 import looperBG from "../../assets/looperBg.svg";
 import imgLinkedin from "../../assets/linkedin.svg";
 import imgGithub from "../../assets/github.svg";
+import imgEmail from "../../assets/mail.svg";
+import imgDownload from "../../assets/download-cloud.svg";
+import CV from "../../assets/pdf/CV-Robson-Carvalho.pdf";
+import profile from "../../assets/profile.png";
 
 import { Button } from "../button";
 
@@ -54,6 +58,44 @@ export const Main = () => {
           alt="Desenho futurista geométrico"
         />
       </Home>
+      <About>
+        <div className="container">
+          <img src={profile} className="profile" alt="profile" />
+          <div className="content">
+            <h3>SOBRE MIM</h3>
+            <p>Cruz das Almas, Brasil</p>
+            <span>
+              Olá, eu me chamo Robson Carvalho! Sou formando em TI pelo
+              Instituto Federal Baiano e estou no cursando o primeiro semestre
+              de Engenharia da Computção na UEFS.
+            </span>
+            <div className="links">
+              <Button
+                name="Currículo"
+                link={CV}
+                icon={imgDownload}
+                description="Download icon"
+                primaryColor={pink}
+                secondColor={purple}
+                download={true}
+                outside={true}
+                deg={160}
+              />
+              <Button
+                name="E-mail"
+                link="mailto:robsoncarvalho.tech@gmail.com"
+                icon={imgEmail}
+                description="Email icon"
+                primaryColor={violet}
+                secondColor={blue}
+                download={false}
+                outside={true}
+                deg={20}
+              />
+            </div>
+          </div>
+        </div>
+      </About>
     </Container>
   );
 };
