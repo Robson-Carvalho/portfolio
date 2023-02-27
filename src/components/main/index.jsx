@@ -23,7 +23,7 @@ export const Main = () => {
 
   return (
     <Container>
-      <Home>
+      <Home id="home">
         <div className="content">
           <div className="texts">
             <span>OLÁ, EU SOU</span>
@@ -61,7 +61,7 @@ export const Main = () => {
           alt="Desenho futurista geométrico"
         />
       </Home>
-      <About>
+      <About id="about">
         <div className="container">
           <img src={profile} className="profile" alt="profile" />
           <div className="content">

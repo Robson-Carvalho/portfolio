@@ -16,7 +16,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <Container>
+    <Container id="project">
       <div className="content">
         <h3>PROJETOS</h3>
         <div className="projects">

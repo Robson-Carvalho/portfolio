@@ -35,7 +35,7 @@ export const Experience = () => {
   };
 
   return (
-    <Container experienceSelecting={experiencedClass}>
+    <Container experienceSelecting={experiencedClass} id="experience">
       <div className="container">
         <h3>EXPERIÊNCIA</h3>
         <div className="content">
