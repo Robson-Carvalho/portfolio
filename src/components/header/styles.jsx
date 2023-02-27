@@ -20,7 +20,7 @@ export const Container = styled.header`
       font-size: 24px;
       text-transform: capitalize;
       line-height: 29px;
-      color: ${({ theme }) => theme.blue};
+      color: ${({ theme }) => theme.primaryColor};
     }
 
     .menu {
@@ -47,7 +47,7 @@ export const Container = styled.header`
             content: "";
             width: 0%;
             height: 2px;
-            background: ${({ theme }) => theme.blue};
+            background: ${({ theme }) => theme.primaryColor};
             position: absolute;
             left: 0;
             bottom: -0.5rem;

@@ -33,7 +33,7 @@ export const Home = styled.section`
         font-size: 64px;
         line-height: 77px;
         text-transform: uppercase;
-        color: ${({ theme }) => theme.blue};
+        color: ${({ theme }) => theme.primaryColor};
       }
 
       span {

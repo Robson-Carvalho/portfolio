@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const cssVariables = {
-  blue: "#00d2df",
+  primaryColor: "#00d2df",
   dark: "#121212",
   dark_200: "#151515",
   gray_light: "#c4c4c4 ",

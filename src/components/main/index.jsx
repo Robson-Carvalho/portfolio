@@ -11,8 +11,8 @@ export const Main = () => {
         <div className="content">
           <div className="texts">
             <span>OLÁ, EU SOU</span>
-            <h2>ROBSON SOUZA</h2>
-            <span>DESENVOLVEDOR FRONT-END.</span>
+            <h2>ROBSON Carvalho</h2>
+            <span>DESENVOLVEDOR FRONT-END REACT.</span>
           </div>
           <div className="links"></div>
         </div>
