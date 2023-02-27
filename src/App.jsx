@@ -23,13 +23,11 @@ const cssVariables = {
   dark_200: "#151515",
   gray_light: "#c4c4c4 ",
   light: "#fff",
-  gradient_pink: {
-    primaryColor: "#D24074",
-    secondColor: "#6518B4",
-  },
-  gradient_purple: {
-    primaryColor: "#9358F7",
-    secondColor: "#10D7E2",
+  gradients: {
+    pink: "#D24074",
+    purple: "#6518B4",
+    violet: "#9358F7",
+    blue: "#10D7E2",
   },
 };
 
