@@ -16,16 +16,16 @@ export const Header = () => {
         <h1 className="portfolioName">Portfólio</h1>
         <ul className="menu">
           <li onClick={handleMenuVisibilityToggle}>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li onClick={handleMenuVisibilityToggle}>
-            <a href="#">Sobre mim</a>
+            <a href="#about">Sobre mim</a>
           </li>
           <li onClick={handleMenuVisibilityToggle}>
-            <a href="#">Experiência</a>
+            <a href="#experience">Experiência</a>
           </li>
           <li onClick={handleMenuVisibilityToggle}>
-            <a href="#">Projetos</a>
+            <a href="#project">Projetos</a>
           </li>
         </ul>
         <MobileButton

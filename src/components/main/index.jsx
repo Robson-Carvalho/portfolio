@@ -13,6 +13,8 @@ import profile from "../../assets/profile.png";
 
 import { Button } from "../button";
 
+import { Experience } from "../experience";
+
 export const Main = () => {
   const {
     gradients: { pink, purple, violet, blue },
@@ -96,6 +98,7 @@ export const Main = () => {
           </div>
         </div>
       </About>
+      <Experience />
     </Container>
   );
 };
