@@ -12,15 +12,15 @@ export const Container = styled.div`
   }
 
   .image {
-    width: 530px;
-    height: 200px;
+    max-width: 530px;
+    width: 100%;
     border-radius: 4px 0px 0px 4px;
-    border-left: 3px solid ${({ theme }) => theme.primaryColor};
+    border-left: 4px solid ${({ theme }) => theme.primaryColor};
     margin-bottom: 40px;
 
     @media screen and (max-width: 940px) {
-      width: 312px;
-      height: 130px;
+      max-width: 312px;
+      width: 100%;
     }
   }
 
