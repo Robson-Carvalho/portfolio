@@ -10,7 +10,16 @@ const projects = [
     techs: "ReactJS e styled-components",
     imageProject:
       "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-project-todo-list.png?raw=true",
-    link: "https://github.com/Robson-Carvalho/todo-list",
+    link: "https://todo-list-three-chi.vercel.app/",
+  },
+  {
+    title: "Home You",
+    description:
+      "A Home You é uma landing page de uma agência especializada na venda de imóveis que promovem o maior conforto para seus clientes.",
+    techs: "ReactJS e styled-components",
+    imageProject:
+      "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-project-homeyou.png?raw=true",
+    link: "https://homeyou-six.vercel.app/",
   },
 ];
 
