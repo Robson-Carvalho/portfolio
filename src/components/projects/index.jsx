@@ -21,6 +21,15 @@ const projects = [
       "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-project-homeyou.png?raw=true",
     link: "https://homeyou-six.vercel.app/",
   },
+  {
+    title: "Tech Blog",
+    description:
+      "Tech Blog é um blog sobre tecnologia estático, porém adicionei uma funcionalidade de busca, onde o usuário pode pesquisar uma palavra na barra de pesquisa e somente os posts relacionandos com a palavra em questão serão exibidos.",
+    techs: "ReactJS e styled-components",
+    imageProject:
+      "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-project-techblog.png?raw=true",
+    link: "https://tech-blog-fawn-xi.vercel.app/",
+  },
 ];
 
 export const Projects = () => {
