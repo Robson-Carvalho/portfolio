@@ -24,7 +24,7 @@ export const Project = ({ title, description, imageProject, techs, link }) => {
         secondColor={blue}
         download={false}
         outside={true}
-        deg={20}
+        deg={10}
       />
     </Container>
   );

@@ -5,6 +5,10 @@ export const Container = styled.section`
   padding: 100px 24px 118px 24px;
   color: #fff;
 
+  @media screen and (max-width: 940px) {
+    padding: 39px 24px 40px 24px;
+  }
+
   .container {
     max-width: 1081px;
     width: 100%;
@@ -21,6 +25,10 @@ export const Container = styled.section`
       font-size: 29px;
       text-transform: uppercase;
       color: ${({ theme }) => theme.light};
+
+      @media screen and (max-width: 940px) {
+        font-size: 24px;
+      }
     }
 
     .content {
@@ -31,12 +39,19 @@ export const Container = styled.section`
 
       @media screen and (max-width: 940px) {
         flex-direction: column;
+        gap: 40px;
       }
 
       .select {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        max-width: 100vw;
+
+        @media screen and (max-width: 940px) {
+          flex-direction: row;
+          overflow-x: scroll;
+        }
 
         button {
           background-color: transparent;
@@ -49,6 +64,10 @@ export const Container = styled.section`
           font-weight: 300;
           font-size: 18px;
           color: ${({ theme }) => theme.gray_light};
+
+          @media screen and (max-width: 940px) {
+            font-size: 14px;
+          }
         }
 
         ${({ experienceSelecting }) => experienceSelecting} {
@@ -57,6 +76,12 @@ export const Container = styled.section`
           font-weight: 500;
           font-size: 18px;
           color: ${({ theme }) => theme.light};
+
+          @media screen and (max-width: 940px) {
+            border-left: none;
+            border-bottom: 3px solid ${({ theme }) => theme.primaryColor};
+            font-size: 14px;
+          }
         }
       }
       .experiences {
@@ -64,18 +89,26 @@ export const Container = styled.section`
         width: 100%;
 
         .profession {
-          font-family: "Inter";
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
           color: ${({ theme }) => theme.light};
           margin: 0 104px 0 0;
+
+          @media screen and (max-width: 940px) {
+            margin: 0 15px 0 0;
+            font-size: 16px;
+          }
         }
         .period {
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
           color: ${({ theme }) => theme.light};
+
+          @media screen and (max-width: 940px) {
+            font-size: 12px;
+          }
         }
         .company {
           font-style: normal;
@@ -83,12 +116,21 @@ export const Container = styled.section`
           font-size: 16px;
           color: ${({ theme }) => theme.primaryColor};
           margin: 26px 0;
+
+          @media screen and (max-width: 940px) {
+            margin: 16px 0;
+            font-size: 14px;
+          }
         }
         .description {
           font-style: normal;
           font-weight: 300;
           font-size: 18px;
           color: ${({ theme }) => theme.gray_light};
+
+          @media screen and (max-width: 940px) {
+            font-size: 14px;
+          }
         }
       }
     }

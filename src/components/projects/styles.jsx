@@ -4,6 +4,10 @@ export const Container = styled.section`
   padding: 100px 24px;
   background-color: ${({ theme }) => theme.dark_200};
 
+  @media screen and (max-width: 940px) {
+    padding: 40px 24px;
+  }
+
   .content {
     max-width: 1081px;
     width: 100%;
@@ -16,6 +20,10 @@ export const Container = styled.section`
       font-size: 24px;
       text-transform: uppercase;
       color: ${({ theme }) => theme.light};
+
+      @media screen and (max-width: 940px) {
+        margin-bottom: 24px;
+      }
     }
 
     .projects {
@@ -24,6 +32,10 @@ export const Container = styled.section`
       align-items: center;
       flex-wrap: wrap;
       gap: 20px;
+
+      @media screen and (max-width: 940px) {
+        gap: 40px;
+      }
     }
   }
 `;

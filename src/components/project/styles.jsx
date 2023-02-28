@@ -25,29 +25,40 @@ export const Container = styled.div`
   }
 
   .title {
-    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 40px;
+
+    @media screen and (max-width: 940px) {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
   }
 
   .description {
-    font-family: "Inter";
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     color: #c4c4c4;
     margin-bottom: 26px;
+
+    @media screen and (max-width: 940px) {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
   }
 
   .techs {
-    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #00d2df;
     margin-bottom: 32px;
+
+    @media screen and (max-width: 940px) {
+      margin-bottom: 32px;
+    }
   }
 `;
