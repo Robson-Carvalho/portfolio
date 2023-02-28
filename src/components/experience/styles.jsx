@@ -29,6 +29,10 @@ export const Container = styled.section`
       gap: 103px;
       align-items: flex-start;
 
+      @media screen and (max-width: 940px) {
+        flex-direction: column;
+      }
+
       .select {
         display: flex;
         flex-direction: column;

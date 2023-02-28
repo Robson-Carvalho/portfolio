@@ -16,7 +16,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
     gap: 16px;
+    margin: 0 auto;
 
     padding: 12px 25px;
 
@@ -25,5 +27,11 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 16px;
     color: ${({ theme }) => theme.light};
+
+    @media screen and (max-width: 940px) {
+      font-size: 14.2222px;
+      justify-content: center;
+      padding: 8px 20px;
+    }
   }
 `;

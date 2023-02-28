@@ -7,12 +7,21 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: flex-start;
 
+  @media screen and (max-width: 940px) {
+    align-items: stretch;
+  }
+
   .image {
     width: 530px;
     height: 200px;
     border-radius: 4px 0px 0px 4px;
     border-left: 3px solid ${({ theme }) => theme.primaryColor};
     margin-bottom: 40px;
+
+    @media screen and (max-width: 940px) {
+      width: 312px;
+      height: 130px;
+    }
   }
 
   .title {

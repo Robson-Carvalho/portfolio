@@ -12,7 +12,7 @@ export const Container = styled.button`
   align-items: flex-end;
   gap: 6px;
 
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 940px) {
     display: flex;
   }
 

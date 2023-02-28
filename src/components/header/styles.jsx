@@ -14,13 +14,20 @@ export const Container = styled.header`
     align-items: center;
     justify-content: space-between;
 
+    @media screen and (max-width: 940px) {
+      padding: 24px 0;
+    }
+
     .portfolioName {
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
       text-transform: capitalize;
-      line-height: 29px;
       color: ${({ theme }) => theme.primaryColor};
+
+      @media screen and (max-width: 940px) {
+        font-size: 18px;
+      }
     }
 
     .menu {
@@ -60,7 +67,7 @@ export const Container = styled.header`
         }
       }
 
-      @media screen and (max-width: 920px) {
+      @media screen and (max-width: 940px) {
         position: fixed;
         top: 0;
         left: 0;

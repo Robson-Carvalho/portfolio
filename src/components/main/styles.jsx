@@ -7,9 +7,13 @@ export const Container = styled.main`
 export const Home = styled.section`
   max-width: 1081px;
   width: 100%;
-  height: 625px;
+
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 152px 24px 209px 24px;
+
+  @media screen and (max-width: 940px) {
+    padding: 56px 24px 56px 24px;
+  }
 
   display: flex;
   flex-direction: row;
@@ -35,6 +39,11 @@ export const Home = styled.section`
         line-height: 77px;
         text-transform: uppercase;
         color: ${({ theme }) => theme.primaryColor};
+
+        @media screen and (max-width: 940px) {
+          font-size: 32px;
+          line-height: 39px;
+        }
       }
 
       span {
@@ -44,6 +53,14 @@ export const Home = styled.section`
         line-height: 29px;
         text-transform: uppercase;
         color: ${({ theme }) => theme.light};
+
+        @media screen and (max-width: 940px) {
+          font-size: 16px;
+
+          &:last-child {
+            line-height: 24px;
+          }
+        }
       }
     }
 
@@ -69,6 +86,10 @@ export const About = styled.section`
   padding: 100px 24px;
   background-color: ${({ theme }) => theme.dark_200};
 
+  @media screen and (max-width: 940px) {
+    padding: 40px 24px;
+  }
+
   .container {
     max-width: 1081px;
     width: 100%;
@@ -84,6 +105,10 @@ export const About = styled.section`
       height: 367px;
       border-left: 6px solid ${({ theme }) => theme.primaryColor};
       border-radius: 4px;
+
+      @media screen and (max-width: 940px) {
+        display: none;
+      }
     }
 
     .content {
@@ -96,6 +121,10 @@ export const About = styled.section`
 
         text-transform: uppercase;
         color: ${({ theme }) => theme.light};
+
+        @media screen and (max-width: 940px) {
+          margin-bottom: 16px;
+        }
       }
       p {
         margin-bottom: 21px;
@@ -104,6 +133,11 @@ export const About = styled.section`
         font-weight: 500;
         font-size: 20px;
         color: ${({ theme }) => theme.light};
+
+        @media screen and (max-width: 940px) {
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
       }
       span {
         font-family: "Inter";
@@ -111,12 +145,21 @@ export const About = styled.section`
         font-weight: 300;
         font-size: 18px;
         color: ${({ theme }) => theme.gray_light};
+
+        @media screen and (max-width: 940px) {
+          font-size: 14px;
+        }
       }
       .links {
         margin-top: 40px;
         display: flex;
         flex-direction: row;
         gap: 48px;
+
+        @media screen and (max-width: 940px) {
+          margin-top: 32px;
+          gap: 24px;
+        }
       }
     }
   }
