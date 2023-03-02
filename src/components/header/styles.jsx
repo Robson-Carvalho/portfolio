@@ -61,7 +61,7 @@ export const Container = styled.header`
             transition: width 0.3s;
           }
 
-          &:active:after {
+          &:hover:after {
             width: 100%;
           }
         }
