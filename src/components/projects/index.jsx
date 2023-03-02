@@ -48,7 +48,7 @@ const projects = [
 export const Projects = () => {
   return (
     <Container id="project">
-      <div className="content">
+      <div className="content" data-aos="fade-up">
         <h3>PROJETOS</h3>
         <div className="projects">
           {projects.map(

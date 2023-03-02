@@ -24,7 +24,7 @@ export const Main = () => {
   return (
     <Container>
       <Home id="home">
-        <div className="content">
+        <div className="content" data-aos="fade-right">
           <div className="texts">
             <span>OLÁ, EU SOU</span>
             <h2>ROBSON CARVALHO</h2>
@@ -62,7 +62,7 @@ export const Main = () => {
         />
       </Home>
       <About id="about">
-        <div className="container">
+        <div className="container" data-aos="fade-left">
           <img src={profile} className="profile" alt="profile" />
           <div className="content">
             <h3>SOBRE MIM</h3>
