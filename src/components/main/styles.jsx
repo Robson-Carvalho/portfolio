@@ -100,14 +100,21 @@ export const About = styled.section`
     align-items: center;
     gap: 163px;
 
+    @media screen and (max-width: 940px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 45px;
+    }
+
     .profile {
       width: 367px;
-      height: 367px;
+
       border-left: 6px solid ${({ theme }) => theme.primaryColor};
       border-radius: 4px;
 
       @media screen and (max-width: 940px) {
-        display: none;
+        max-width: 320px;
+        width: 100%;
       }
     }
 
