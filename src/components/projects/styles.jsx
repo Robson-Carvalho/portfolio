@@ -29,7 +29,9 @@ export const Container = styled.section`
     .projects {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: stretch;
+      justify-content: center;
+
       flex-wrap: wrap;
       gap: 20px;
 
