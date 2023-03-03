@@ -8,7 +8,7 @@ import imgLinkedin from "../../assets/linkedin.svg";
 import imgGithub from "../../assets/github.svg";
 import imgEmail from "../../assets/mail.svg";
 import imgDownload from "../../assets/download-cloud.svg";
-import CV from "../../assets/pdf/CV-Robson-Carvalho.pdf";
+import CV from "../../../public/CV-Robson-Carvalho-Dev.pdf";
 import profile from "../../assets/profile.png";
 
 import { Button } from "../button";
