@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   width: 100%;
   padding: 100px 24px 118px 24px;
+  background-color: ${({ theme }) => theme.dark};
   color: #fff;
 
   @media screen and (max-width: 940px) {
