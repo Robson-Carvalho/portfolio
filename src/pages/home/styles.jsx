@@ -1,7 +1,12 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  min-height: 100vh;
   background-color: ${({ theme }) => theme.dark};
-  overflow-x: hidden;
+  height: 100vh;
+
+  ${({ isMenuVisible }) =>
+    isMenuVisible &&
+    css`
+      overflow-y: hidden;
+    `}
 `;
