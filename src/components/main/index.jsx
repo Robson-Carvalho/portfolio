@@ -8,7 +8,7 @@ import imgLinkedin from "../../assets/linkedin.svg";
 import imgGithub from "../../assets/github.svg";
 import imgEmail from "../../assets/mail.svg";
 import imgDownload from "../../assets/download-cloud.svg";
-import CV from "../../../public/CV-Robson-Carvalho-Dev.pdf";
+import CV from "../../assets/CV-Robson-Carvalho-Dev.pdf";
 import profile from "../../assets/profile.png";
 
 import { Button } from "../button";
@@ -68,9 +68,11 @@ export const Main = () => {
             <h3>SOBRE MIM</h3>
             <p>Cruz das Almas, Brasil</p>
             <span>
-              Olá, eu me chamo Robson Carvalho! Sou formando em TI pelo
-              Instituto Federal Baiano e estou no cursando o primeiro semestre
-              de Engenharia da Computção na UEFS.
+              Olá, eu me chamo Robson Carvalho! Sou um desenvolvedor apaixonado
+              pelo que eu faço e entusiasta do JavaScript. Como disse Marianna
+              Moreno, “Apaixone-se pelo seu trabalho e a busca pelo sucesso será
+              algo natural!”, isso é algo que eu carrego no meu dia a dia como
+              desenvolvedor.
             </span>
             <div className="links">
               <Button

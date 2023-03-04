@@ -17,6 +17,7 @@ export const Container = styled.button`
   }
 
   span {
+    z-index: 1000;
     display: block;
     width: 32px;
     border: 1px solid ${({ theme }) => theme.light};
@@ -26,7 +27,6 @@ export const Container = styled.button`
       isMenuVisible &&
       css`
         position: fixed;
-        z-index: 1000;
       `}
 
     &:nth-child(1) {

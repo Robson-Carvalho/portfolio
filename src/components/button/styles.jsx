@@ -16,11 +16,13 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     gap: 16px;
     margin: 0 auto;
 
-    padding: 12px 25px;
+    width: 160px;
+    height: 45px;
 
     text-decoration: none;
     font-style: normal;
@@ -28,10 +30,14 @@ export const Container = styled.div`
     font-size: 16px;
     color: ${({ theme }) => theme.light};
 
+    &:hover {
+      ${({ theme }) => theme.gray_light};
+    }
+
     @media screen and (max-width: 940px) {
-      font-size: 14.2222px;
-      justify-content: center;
-      padding: 8px 20px;
+      font-size: 14px;
+      width: 130px;
+      height: 38px;
     }
   }
 `;

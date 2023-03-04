@@ -20,6 +20,7 @@ export const Home = styled.section`
   justify-content: flex-start;
 
   .content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +28,7 @@ export const Home = styled.section`
     gap: 60px;
 
     .texts {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -39,6 +41,7 @@ export const Home = styled.section`
         line-height: 77px;
         text-transform: uppercase;
         color: ${({ theme }) => theme.primaryColor};
+        text-align: left;
 
         @media screen and (max-width: 940px) {
           font-size: 32px;
@@ -76,7 +79,7 @@ export const Home = styled.section`
     position: absolute;
     right: 0;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1370px) {
       display: none;
     }
   }
@@ -113,8 +116,12 @@ export const About = styled.section`
       border-radius: 4px;
 
       @media screen and (max-width: 940px) {
-        max-width: 320px;
+        max-width: 280px;
         width: 100%;
+
+        @media screen and (max-width: 460px) {
+          margin: 0 auto;
+        }
       }
     }
 
@@ -147,7 +154,6 @@ export const About = styled.section`
         }
       }
       span {
-        font-family: "Inter";
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
