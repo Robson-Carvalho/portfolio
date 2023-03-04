@@ -5,6 +5,16 @@ import { Project } from "../project";
 const projects = [
   {
     id: crypto.randomUUID(),
+    title: "FoodJP",
+    description:
+      "Este projeto é uma landing page do FoodJP, um restaurante de comida oriental que procura dar a conhecer os melhores e mais populares pratos orientais.",
+    techs: "ReactJS e styled-components",
+    imageProject:
+      "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-foodjp.png?raw=true",
+    link: "https://foodjp-robson-carvalho.vercel.app/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "Todo List",
     description:
       "Todo List visa listar as coisas que precisam ser feitas. É uma forma de organizar atividades que não podem ser esquecidas e que não fazem parte da nossa rotina. É diferente de uma agenda, onde as atividades têm dia e hora para acontecer.",
