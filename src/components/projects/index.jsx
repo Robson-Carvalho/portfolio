@@ -5,6 +5,16 @@ import { Project } from "../project";
 const projects = [
   {
     id: crypto.randomUUID(),
+    title: "Suplementos",
+    description:
+      "Suplementos é uma página de landing page sobre os benefícios e a venda de suplementos.",
+    techs: "HTML, CSS e JavaScript",
+    imageProject:
+      "https://github.com/Robson-Carvalho/portfolio/blob/main/.github/image-suplementos.png?raw=true",
+    link: "https://supplement-store-eta.vercel.app/",
+  },
+  {
+    id: crypto.randomUUID(),
     title: "FoodJP",
     description:
       "Este projeto é uma landing page do FoodJP, um restaurante de comida oriental que procura dar a conhecer os melhores e mais populares pratos orientais.",
