@@ -15,7 +15,7 @@ export const Home = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   const handleMenuVisibilityToggle = () => {
-    setIsMenuVisible(!isMenuVisible);
+    if (window.screen.width <= 940) setIsMenuVisible(!isMenuVisible);
   };
 
   useEffect(() => {
