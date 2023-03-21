@@ -12,14 +12,14 @@ export const Container = styled.div`
   }
 
   .image {
-    max-width: 530px;
+    /* max-width: 530px; */
     width: 100%;
     border-radius: 4px 0px 0px 4px;
     border-left: 4px solid ${({ theme }) => theme.primaryColor};
     margin-bottom: 40px;
 
     @media screen and (max-width: 940px) {
-      max-width: 312px;
+      /* max-width: 312px; */
       width: 100%;
     }
   }
