@@ -9,7 +9,7 @@ import imgGithub from "../../assets/github.svg";
 import imgEmail from "../../assets/mail.svg";
 import imgDownload from "../../assets/download-cloud.svg";
 import CV from "../../assets/CV-Robson-Carvalho-Dev.pdf";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profile.jpg";
 
 import { Button } from "../button";
 
