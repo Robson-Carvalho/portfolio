@@ -61,4 +61,16 @@ export const Container = styled.div`
       margin-bottom: 32px;
     }
   }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+
+    @media screen and (max-width: 940px) {
+      justify-content: center;
+    }
+  }
 `;

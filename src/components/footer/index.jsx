@@ -1,9 +1,8 @@
-import { Container } from "./styles";
-
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
-
 import { HiCode } from "react-icons/hi";
+
+import { Container } from "./styles";
 
 export const Footer = () => {
   const { primaryColor } = useContext(ThemeContext);

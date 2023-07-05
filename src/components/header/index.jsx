@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-
 import { MobileButton } from "../mobileButton";
 
 export const Header = ({ isMenuVisible, handleMenuVisibilityToggle }) => {
@@ -7,6 +6,7 @@ export const Header = ({ isMenuVisible, handleMenuVisibilityToggle }) => {
     <Container isMenuVisible={isMenuVisible}>
       <nav>
         <h1 className="portfolioName">Portfólio</h1>
+
         <ul className="menu">
           <li onClick={handleMenuVisibilityToggle}>
             <a href="#home">Home</a>
@@ -21,6 +21,7 @@ export const Header = ({ isMenuVisible, handleMenuVisibilityToggle }) => {
             <a href="#project">Projetos</a>
           </li>
         </ul>
+
         <MobileButton
           isMenuVisible={isMenuVisible}
           handleMenuVisibilityToggle={handleMenuVisibilityToggle}

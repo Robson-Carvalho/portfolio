@@ -157,6 +157,7 @@ export const About = styled.section`
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
+        text-align: justify;
         color: ${({ theme }) => theme.gray_light};
 
         @media screen and (max-width: 940px) {

@@ -1,7 +1,7 @@
 import { css, createGlobalStyle } from "styled-components";
 
 // prettier-ignore
-export const reset = css`
+const reset = css`
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
    License: none (public domain)
@@ -56,4 +56,30 @@ table {
 }
 `
 
-export const Reset = createGlobalStyle`${reset}`;
+export const GlobalStyle = createGlobalStyle`
+  ${reset}
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+  body, *{
+    box-sizing: border-box;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #121212;        /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #00d2df;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #151515;  /* creates padding around scroll thumb */
+  }
+`;

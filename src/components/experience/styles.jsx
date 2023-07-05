@@ -94,23 +94,24 @@ export const Container = styled.section`
           font-weight: 500;
           font-size: 24px;
           color: ${({ theme }) => theme.light};
-          margin: 0 104px 0 0;
 
           @media screen and (max-width: 940px) {
             margin: 0 15px 0 0;
             font-size: 16px;
           }
         }
+
         .period {
           font-style: normal;
           font-weight: 500;
-          font-size: 16px;
-          color: ${({ theme }) => theme.light};
+          font-size: 14px;
+          color: ${({ theme }) => theme.gray_light};
 
           @media screen and (max-width: 940px) {
             font-size: 12px;
           }
         }
+
         .company {
           font-style: normal;
           font-weight: 500;

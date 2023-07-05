@@ -1,5 +1,3 @@
-import { Container, Home, About } from "./styles";
-
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
 
@@ -8,13 +6,14 @@ import imgLinkedin from "../../assets/linkedin.svg";
 import imgGithub from "../../assets/github.svg";
 import imgEmail from "../../assets/mail.svg";
 import imgDownload from "../../assets/download-cloud.svg";
-import CV from "../../assets/CV_Robson_Souza_Developer.pdf";
+import CV from "../../assets/Robson Carvalho - Desenvolvedor Front-end.pdf";
 import profile from "../../assets/profile.jpg";
 
-import { Button } from "../button";
-
+import { Container, Home, About } from "./styles";
 import { Experience } from "../experience";
 import { Projects } from "../projects";
+
+import { Button } from "../button";
 
 export const Main = () => {
   const {
@@ -28,8 +27,9 @@ export const Main = () => {
           <div className="texts">
             <span>OLÁ, EU SOU</span>
             <h2>ROBSON CARVALHO</h2>
-            <span>DESENVOLVEDOR FULL-STACK.</span>
+            <span>DESENVOLVEDOR FRONT-END.</span>
           </div>
+
           <div className="links">
             <Button
               name="LinkedIn"
@@ -42,6 +42,7 @@ export const Main = () => {
               outside={true}
               deg={20}
             />
+
             <Button
               name="GitHub"
               link="https://github.com/Robson-Carvalho"
@@ -55,25 +56,30 @@ export const Main = () => {
             />
           </div>
         </div>
+
         <img
           className="looperBG"
           src={looperBG}
           alt="Desenho futurista geométrico"
         />
       </Home>
+
       <About id="about">
         <div className="container" data-aos="fade-left">
           <img src={profile} className="profile" alt="profile" />
+
           <div className="content">
             <h3>SOBRE MIM</h3>
             <p>Cruz das Almas, Brasil</p>
             <span>
-              Olá, eu me chamo Robson Carvalho! Sou um desenvolvedor apaixonado
-              pelo que eu faço e entusiasta do JavaScript. Como disse Marianna
-              Moreno, “Apaixone-se pelo seu trabalho e a busca pelo sucesso será
-              algo natural!”, isso é algo que eu carrego no meu dia a dia como
-              desenvolvedor.
+              Tenho o objetivo de atuar como Desenvolvedor Front-End na produção
+              de software e suas extensões, assim como na solução de problemas.
+              Estou Especializando-se em JavaScript, TypeScript, ReactJS, Redux
+              e Style-Components. Além disso, tenho conhecimento da base do
+              JavaScript como Event Loop, Web API, CallStack, CallBack Queue e
+              Garbage Collection.
             </span>
+
             <div className="links">
               <Button
                 name="Currículo"
@@ -86,6 +92,7 @@ export const Main = () => {
                 outside={true}
                 deg={160}
               />
+
               <Button
                 name="E-mail"
                 link="mailto:robsoncarvalho.tech@gmail.com"
@@ -101,7 +108,9 @@ export const Main = () => {
           </div>
         </div>
       </About>
+
       <Experience />
+
       <Projects />
     </Container>
   );
