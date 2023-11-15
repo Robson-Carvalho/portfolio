@@ -1,5 +1,13 @@
 export const experiences = [
   {
+    id: ".op0",
+    profession: "Mímeses",
+    period: "Set 2032 - O momento",
+    company: "Mímeses",
+    description:
+      "Atualmente, faço parte da equipe de desenvolvimento de software na Mímesis, onde mergulho diariamente em desafios que abrange tanto levantamento de requisitos para aplicação, implementação de novos recursos na API e a criação de interfaces WEB.",
+  },
+  {
     id: ".op1",
     profession: "Consultor de Programação Júnior",
     period: "Mar 2022 - Nov 2022",

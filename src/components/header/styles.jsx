@@ -2,13 +2,20 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.header`
   padding: 0 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(13.5px);
 
   nav {
     max-width: 1081px;
     width: 100%;
     margin: 0 auto;
     height: auto;
-    padding: 40px 0;
+    padding: 32px 0;
 
     display: flex;
     align-items: center;

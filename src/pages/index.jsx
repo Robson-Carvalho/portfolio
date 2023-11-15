@@ -16,11 +16,6 @@ export const Home = () => {
     if (window.screen.width <= 940) setIsMenuVisible(!isMenuVisible);
   };
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
   return (
     <Container isMenuVisible={isMenuVisible}>
       <Header

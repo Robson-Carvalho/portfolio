@@ -5,7 +5,7 @@ export const Header = ({ isMenuVisible, handleMenuVisibilityToggle }) => {
   return (
     <Container isMenuVisible={isMenuVisible}>
       <nav>
-        <h1 className="portfolioName">Portfólio</h1>
+        <h1 className="portfolioName">Robson Carvalho</h1>
 
         <ul className="menu">
           <li onClick={handleMenuVisibilityToggle}>
@@ -15,7 +15,7 @@ export const Header = ({ isMenuVisible, handleMenuVisibilityToggle }) => {
             <a href="#about">Sobre mim</a>
           </li>
           <li onClick={handleMenuVisibilityToggle}>
-            <a href="#experience">Experiência</a>
+            <a href="#experience">Experiências</a>
           </li>
           <li onClick={handleMenuVisibilityToggle}>
             <a href="#project">Projetos</a>

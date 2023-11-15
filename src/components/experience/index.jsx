@@ -4,7 +4,7 @@ import { Container } from "./styles";
 import { experiences } from "../../data/experiences";
 
 export const Experience = () => {
-  const [experiencedClass, setExperiencedClass] = useState(".op1");
+  const [experiencedClass, setExperiencedClass] = useState(".op0");
   const [experiencePosition, setExperiencePosition] = useState(0);
 
   const handleExperienceToggle = ({ target: { className } }) => {
@@ -12,16 +12,21 @@ export const Experience = () => {
 
     setExperiencedClass(newClass);
 
-    className === "op1" ? setExperiencePosition(0) : setExperiencePosition(1);
+    let position = Number(className.replace("op", ""));
+
+    setExperiencePosition(position);
   };
 
   return (
     <Container experienceSelecting={experiencedClass} id="experience">
-      <div className="container" data-aos="fade-right">
-        <h3>EXPERIÊNCIA</h3>
+      <div className="container">
+        <h3>EXPERIÊNCIAS</h3>
 
         <div className="content">
           <div className="select">
+            <button className="op0" onClick={handleExperienceToggle}>
+              Mímeses
+            </button>
             <button className="op1" onClick={handleExperienceToggle}>
               IF Baiano
             </button>

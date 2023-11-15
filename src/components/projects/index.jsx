@@ -6,7 +6,7 @@ import { Project } from "../project";
 export const Projects = () => {
   return (
     <Container id="project">
-      <div className="content" data-aos="fade-up">
+      <div className="content">
         <h3>PROJETOS</h3>
 
         <div className="projects">

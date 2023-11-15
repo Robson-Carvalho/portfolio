@@ -6,7 +6,7 @@ import imgLinkedin from "../../assets/linkedin.svg";
 import imgGithub from "../../assets/github.svg";
 import imgEmail from "../../assets/mail.svg";
 import imgDownload from "../../assets/download-cloud.svg";
-import CV from "../../assets/Robson Carvalho - Desenvolvedor Front-end.pdf";
+import CV from "../../assets/CV.pdf";
 import profile from "../../assets/profile.jpg";
 
 import { Container, Home, About } from "./styles";
@@ -23,17 +23,17 @@ export const Main = () => {
   return (
     <Container>
       <Home id="home">
-        <div className="content" data-aos="fade-right">
+        <div className="content">
           <div className="texts">
-            <span>OLÁ, EU SOU</span>
-            <h2>ROBSON CARVALHO</h2>
-            <span>DESENVOLVEDOR FRONT-END.</span>
+            <span>Olá, eu sou Robson! 👋</span>
+            <h2>Desenvolvedor FullStack</h2>
+            <span>na Mímeses. </span>
           </div>
 
           <div className="links">
             <Button
               name="LinkedIn"
-              link="https://www.linkedin.com/in/devrobsoncarvalho/"
+              link="https://www.linkedin.com/in/robson-carvalho-souza/"
               icon={imgLinkedin}
               description="Linkedin icon"
               primaryColor={violet}
@@ -65,7 +65,7 @@ export const Main = () => {
       </Home>
 
       <About id="about">
-        <div className="container" data-aos="fade-left">
+        <div className="container">
           <img src={profile} className="profile" alt="profile" />
 
           <div className="content">

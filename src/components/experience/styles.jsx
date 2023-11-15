@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  padding: 100px 24px 118px 24px;
+  padding: 152px 24px 118px 24px;
   background-color: ${({ theme }) => theme.dark};
   color: #fff;
 
   @media screen and (max-width: 940px) {
-    padding: 39px 24px 40px 24px;
+    padding: 92px 24px 40px 24px;
   }
 
   .container {
@@ -18,7 +18,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 26px;
+    gap: 64px;
 
     h3 {
       font-style: normal;
@@ -47,7 +47,7 @@ export const Container = styled.section`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        max-width: 100vw;
+        max-width: 100%;
 
         @media screen and (max-width: 940px) {
           flex-direction: row;

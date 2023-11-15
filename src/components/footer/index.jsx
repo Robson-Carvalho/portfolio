@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="content">
         <p>@ 2023 - Robson Carvalho</p>
         <div>
-          <p>Powered by</p>
+          <p>Portfolio</p>
           <HiCode size={25} fill={primaryColor} />
         </div>
       </div>

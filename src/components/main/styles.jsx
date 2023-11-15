@@ -8,11 +8,11 @@ export const Home = styled.section`
   max-width: 1081px;
   width: 100%;
 
-  margin: 0 auto;
   padding: 152px 24px 209px 24px;
+  margin: 0 auto;
 
   @media screen and (max-width: 940px) {
-    padding: 56px 24px 56px 24px;
+    padding: 92px 24px 56px 24px;
   }
 
   display: flex;
@@ -86,8 +86,8 @@ export const Home = styled.section`
 `;
 
 export const About = styled.section`
-  padding: 100px 24px;
   background-color: ${({ theme }) => theme.dark_200};
+  padding: 100px 24px;
 
   @media screen and (max-width: 940px) {
     padding: 40px 24px;

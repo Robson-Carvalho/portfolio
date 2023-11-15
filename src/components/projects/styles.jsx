@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 100px 24px;
+  padding: 152px 24px;
   background-color: ${({ theme }) => theme.dark_200};
 
   @media screen and (max-width: 940px) {
-    padding: 40px 24px;
+    padding: 92px 24px;
   }
 
   .content {
