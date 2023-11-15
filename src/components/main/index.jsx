@@ -70,14 +70,30 @@ export const Main = () => {
 
           <div className="content">
             <h3>SOBRE MIM</h3>
-            <p>Cruz das Almas, Brasil</p>
+            <p>Feira de Santana, Bahia, Brasil</p>
             <span>
-              Tenho o objetivo de atuar como Desenvolvedor Front-End na produção
-              de software e suas extensões, assim como na solução de problemas.
-              Estou Especializando-se em JavaScript, TypeScript, ReactJS, Redux
-              e Style-Components. Além disso, tenho conhecimento da base do
-              JavaScript como Event Loop, Web API, CallStack, CallBack Queue e
-              Garbage Collection.
+              Sou um Desenvolvedor Fullstack com especialização em JavaScript,
+              TypeScript, ReactJS, Redux e Style-Components. Possuo um sólido
+              conhecimento nas bases do JavaScript, incluindo conceitos
+              essenciais como o Event Loop, Web API, Call Stack, Callback Queue
+              e Garbage Collection.
+              <br />
+              <br />
+              Minha experiência abrange o desenvolvimento abrangente de
+              aplicações, desde o front-end até o back-end. Estou comprometido
+              em manter-me atualizado com as mais recentes tecnologias e
+              práticas de desenvolvimento, garantindo que minha habilidade
+              técnica esteja alinhada com as demandas do setor. Ao longo da
+              minha carreira, demonstrei habilidades eficazes de resolução de
+              problemas, comunicação clara e colaboração em equipes
+              multidisciplinares.
+              <br />
+              <br />
+              Estou entusiasmado em enfrentar desafios complexos e contribuir
+              para o sucesso de projetos inovadores. Busco oportunidades que me
+              permitam continuar aprimorando minhas habilidades técnicas e
+              aplicá-las de maneira eficaz para criar soluções robustas e de
+              alto desempenho.
             </span>
 
             <div className="links">
